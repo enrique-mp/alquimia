@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <title>Calculadora de Alquimia</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
+    <!-- Minified version -->
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+
+    <!-- Include JS files -->
+    <script src="js/script.js"></script>
+
+  </head>
+  <body>
+
+    <div class="container">
+
+      <h1>Calculadora de Alquimia</h1>
+
+      <blockquote>
+        <p>
+          Para hacer el cálculo, debes proporcionar el porcentaje de 
+          aroma indicado como recomendado por el fabricante, y la cantidad
+          de aroma que contiene el bote.
+        </p>
+      </blockquote>
+
+      <!-- Option for provide flavour percentage and quantity 
+      to the user -->
+
+      <h4>Porcentaje de Aroma (en %)</h4>
+      <input type="text" id="pcAroma">
+
+      <h4>Mililitros de Aroma (en ml.)</h4>
+      <input type="text" id="mlAroma">
+
+      <div class="button">
+        <button id="btn">Calcular</button>
+      </div>
+
+      <div id="result"></div>
+
+    </div>
+  </body>
+
+</html>
